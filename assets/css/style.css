@@ -55,7 +55,7 @@ html {
 }
 
 main {
-    z-index: 10000000000000000;
+    z-index: 10;
     flex-grow: 1;
 }
 
@@ -248,6 +248,43 @@ nav {
     width: 100%;
 }
 
+.services_smoke {
+    position: absolute;
+    width: -webkit-fill-available;
+}
+
+/*service */
+
+.services {
+    margin-top: 180px;
+    z-index: 1000;
+}
+
+.services_cards {
+    margin-top: 80px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+    gap: 20px;
+}
+
+.service_card {
+    background: linear-gradient(150deg, rgba(251,251,251,0.2) 0%, rgba(38,38,38,0.2) 100%);
+    width: fit-content;
+    border-radius: 30px;
+    position: relative;
+}
+
+.service_card p {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px 40px 0px;
+    text-align: center;
+    font-family: "MullerEXtraBold", sans-serif;
+    font-size: 40px;
+}
 
 
 @keyframes ani {
@@ -522,6 +559,29 @@ justify-items: center;
     grid-template-columns: repeat(auto-fill, minmax(536px, 1fr));
 }
 
+.note {
+    margin-top: 20px;
+    border-radius: 15px;
+    background: linear-gradient(178deg, rgba(251,251,251,0.2) 0%, rgba(38,38,38,0.2) 100%);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: var(--white1);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.note p:first-child {
+    font-family: sans-serif;
+}
+
+.note .main_text {
+    color: var(--white1);
+    font-family: "MullerMedium", sans-serif;
+    font-size: 28px;
+}
+
 /*header media queries*/
 @media screen and (max-width: 1300px) {
     .nav ul {
@@ -563,6 +623,7 @@ justify-items: center;
 .options_list {
     justify-items: center;
 }
+
 
 .title h1 {
     font-size: 100px; }
