@@ -12,6 +12,8 @@ window.addEventListener('scroll', (e) => {
 document.addEventListener('DOMContentLoaded', () => {
     const animateElements1 = document.querySelectorAll('.animate-on-scroll_left');
     const animateElements2 = document.querySelectorAll('.animate-on-scroll_right');
+    const animateElements3 = document.querySelectorAll('.animate-on-scroll_up');
+
 
 
     const observer = new IntersectionObserver((entries) => {
@@ -28,6 +30,9 @@ document.addEventListener('DOMContentLoaded', () => {
         observer.observe(element);
     });
     animateElements2.forEach(element => {
+        observer.observe(element);
+    });
+    animateElements3.forEach(element => {
         observer.observe(element);
     });
 });
