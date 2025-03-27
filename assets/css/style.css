@@ -59,7 +59,7 @@ html {
 
 main {
     margin-top: -190px;
-    z-index: 1000000000000000;
+    z-index: 10000000;
     flex-grow: 1;
 }
 
