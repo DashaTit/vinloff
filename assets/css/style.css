@@ -75,7 +75,7 @@ a:hover {
 
 /*header bg*/
 .header {
-    height: 900px;
+    height: 850px;
     /*height: 100vh;*/
     position: relative;
 }
@@ -91,7 +91,7 @@ header {
     background-image: url("../images/garage_header.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 900px;
+    height: 850px;
     mix-blend-mode: soft-light;
 }
 
