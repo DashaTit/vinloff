@@ -1222,6 +1222,19 @@ footer .nav {
     .header-text p {
         font-size: 100px;
     }
+
+    .service_card p {
+        font-size: 20px;
+    }
+
+    .services_cards {
+        margin-top: 80px;
+        display: grid
+    ;
+        justify-items: center;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+    }
 }
 
 @media screen and (max-width: 500px) {
