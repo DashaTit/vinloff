@@ -1127,8 +1127,8 @@ footer .nav {
     }
 
     .options_card_footer {
-        position: relative;
-        bottom: 0;
+        position: absolute;
+        bottom: 30px;
     }
 }
 @media screen and (max-width: 800px) {
