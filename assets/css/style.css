@@ -309,6 +309,7 @@ nav {
     font-family: "MullerEXtraBold", sans-serif;
     font-size: 40px;
     text-transform: uppercase;
+    color: var(--white1);
 }
 
 
@@ -872,7 +873,6 @@ body.no-scroll {
 
 /*request */
 .request {
-    margin-top: -120px;
     position: relative;
 }
 .request-car {
