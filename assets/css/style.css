@@ -1257,7 +1257,11 @@ footer .nav {
 }
 
 @media screen and (max-width: 560px) {
-
+    .car {
+        top: 210px;
+        left: 0;
+        width: 100%;
+    }
     .header-text p {
         font-size: 100px;
     }
@@ -1306,6 +1310,40 @@ footer .nav {
         padding: 20px 50px;
     }
 
+    .header_left p {
+        padding: 20px;
+    }
+
+    main {
+        margin-top: -60px;
+    }
+
+    .options, .works {
+        margin-top: 60px;
+    }
+
+    .note {
+        padding: 20px;
+    }
+
+    .review div h3, .review div h6 {
+        font-size: 20px;
+    }
+
+    .review {
+        display: flex
+    ;
+        flex-direction: column;
+        justify-content: space-between;
+        background: linear-gradient(150deg, rgba(251, 251, 251, 0.2) 0%, rgba(38, 38, 38, 0.2) 100%);
+        width: fit-content;
+        border-radius: 30px;
+        padding: 20px;
+        position: relative;
+        gap: 20px;
+        min-height: auto;
+    }
+
 }
 
 @media screen and (max-width: 460px) {
@@ -1320,7 +1358,7 @@ footer .nav {
     }
 
     .header {
-        height: 460px;
+        height: 400px;
     }
 
     .header_bg {
