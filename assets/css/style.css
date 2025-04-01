@@ -1191,6 +1191,17 @@ footer .nav {
         height: 660px;
     }
 
+    .custom-next, .custom-prev {
+        display: none;
+    }
+    .swiper-slide img {
+        width: 100%;
+    }
+
+    .container-custom {
+        margin-top: 0;
+    }
+
     .title h1 {
         font-size: 50px;
         line-height: normal;
