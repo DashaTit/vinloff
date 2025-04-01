@@ -1104,10 +1104,13 @@ footer .nav {
 
 }
 @media screen and (max-width: 1500px) {
-    .options_list {
-        grid-template-columns: repeat(auto-fit, minmax(min(336px, 100%), 1fr));
 
-    }
+        .options_list {
+            display: grid
+        ;
+            grid-template-columns: repeat(auto-fit, minmax(min(336px, 100%), 1fr));
+        }
+
     .options_card {
         display: grid;
         grid-template-rows: auto 1fr;
