@@ -1198,6 +1198,22 @@ footer .nav {
         width: 100%;
     }
 
+    .swiper-container {
+        scale: 1;
+    }
+
+    .info .logo img {
+        width: 200px;
+    }
+
+    .info h2 {
+        font-size: 30px;
+    }
+
+    .info_container p {
+        text-align: start;
+    }
+
     .container-custom {
         margin-top: 0;
     }
