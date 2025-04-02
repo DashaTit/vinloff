@@ -54,3 +54,58 @@ document.getElementById('menu').addEventListener('click', (e) => {
     }
 })
 
+
+document.querySelector('.header_btn').addEventListener('click', ()=> {
+    modal.classList.add('active')
+    document.body.classList.add('no-scroll')
+    window.scrollTo(0, 0)
+})
+
+document.getElementById('close').addEventListener('click', () => {
+    modal.classList.remove('active')
+    document.body.classList.remove('no-scroll')
+})
+
+
+document.getElementById('modal').addEventListener('click', (e) => {
+    if (e.target.id === 'modal') {
+        modal.classList.remove('active')
+        document.body.classList.remove('no-scroll')
+    }
+})
+
+document.querySelector('.option-1').addEventListener('click', ()=> {
+    modal.classList.add('active')
+    document.body.classList.add('no-scroll')
+    window.scrollTo(0, 0)
+})
+
+document.querySelector('.option-2').addEventListener('click', ()=> {
+    modal.classList.add('active')
+    document.body.classList.add('no-scroll')
+    window.scrollTo(0, 0)
+})
+
+document.querySelector('.option-3').addEventListener('click', ()=> {
+    modal.classList.add('active')
+    document.body.classList.add('no-scroll')
+    window.scrollTo(0, 0)
+})
+
+document.querySelector('.info_btn').addEventListener('click', ()=> {
+    modal.classList.add('active')
+    document.body.classList.add('no-scroll')
+    window.scrollTo(0, 0)
+})
+
+function sendEmail() {
+    Email.send({
+        Host: "smtp.yourprovider.com", // Например, smtp.gmail.com
+        Username: "ваш@email.com",
+        Password: "ваш_пароль",
+        To: 'получатель@email.com',
+        From: "ваш@email.com",
+        Subject: "Новая заявка",
+        Body: `Имя: ${document.getElementById('phone').value}<br>`
+    }).then(message => alert(message));
+}
