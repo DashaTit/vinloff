@@ -1175,6 +1175,28 @@ footer .nav {
     gap: 0;
 }
 
+.thank_title {
+    text-align: center;
+    font-size: 36px;
+    color: var(--white1);
+    font-family: 'MullerBold', sans-serif;
+}
+
+.thank_title-2 {
+    text-align: center;
+    font-size: 28px;
+    color: var(--white1);
+    font-family: 'MullerBold', sans-serif;
+}
+
+.thank {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
 @media screen and (max-width: 1200px) {
 
     .request-car {
